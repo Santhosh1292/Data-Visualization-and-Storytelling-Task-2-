@@ -7,13 +7,16 @@ The goal of this Power BI dashboard is to:
 ✅ Understand regional revenue insights for better decision-making.
 ✅ Optimize discounts & profit margins through scatter plot analysis.
 ✅ Enhance customer engagement tracking using repeat customer analytics.
+
 🛠️ Tools & Technologies Used
 - Power BI Desktop 🖥️ (Data Visualization & Analytics)
 - DAX (Data Analysis Expressions) ⚡ (Custom calculations)
 - Power Query 🔄 (Data transformation & cleaning)
 - Superstore Dataset (CSV) 📊
-📊 Key Visualizations
-# The dashboard includes:
+- 
+
+# 📊 Key Visualizations
+ The dashboard includes:
 1️⃣ Sales Trends → Line Chart (Total Sales over time)
 2️⃣ Profit vs. Discount Analysis → Scatter Plot (Impact of discounts on profit)
 3️⃣ Top Categories Performance → Bar Chart (Revenue by product category)
