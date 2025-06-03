@@ -13,7 +13,7 @@ The goal of this Power BI dashboard is to:
 - Power Query 🔄 (Data transformation & cleaning)
 - Superstore Dataset (CSV) 📊
 📊 Key Visualizations
-The dashboard includes:
+# The dashboard includes:
 1️⃣ Sales Trends → Line Chart (Total Sales over time)
 2️⃣ Profit vs. Discount Analysis → Scatter Plot (Impact of discounts on profit)
 3️⃣ Top Categories Performance → Bar Chart (Revenue by product category)
@@ -22,7 +22,7 @@ The dashboard includes:
 6️⃣ Sales Funnel → Funnel Chart (Order conversion process)
 7️⃣ Customer Retention Analysis → Repeat vs. New Customers
 
-📖 Installation & Usage
+ # 📖 Installation & Usage
 1️⃣ Download the Power BI file (Superstore.pbix).
 2️⃣ Open in Power BI Desktop.
 3️⃣ Connect the dataset (Superstore.csv) if required.
@@ -36,7 +36,7 @@ RepeatCustomers = CALCULATE(
     FILTER(VALUES('Sample - Superstore'[Customer ID]), CALCULATE(COUNT('Sample - Superstore'[Order ID])) > 1)
 )
 
-
+# 
 📌 Enhancements & Future Improvements
 🔹 Predictive Analytics → Sales forecasting using time series modeling.
 🔹 Drillthrough pages → More in-depth customer purchase analysis.
